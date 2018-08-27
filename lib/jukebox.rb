@@ -66,9 +66,9 @@ def run(song_list)
     case user_input2
     
     when "list"
-      list
+      list(song_list)
     when "play"
-      play
+      play(song_list)
       when "help"
       help
     end
