@@ -43,14 +43,16 @@ def play(my_songs)
   song_names = my_songs.keys
   puts "Please enter a song name:"
   user_input = gets.chomp
+  song_names.each do |songs_avail|
   
-  if song_names.include?(user_input)
+  if user_input == songs_avail
     system "open #{my_songs[user_input]}"
    
   else 
     puts "Invalid input"
    
   end
+ end
 end
 
 def exit_jukebox
