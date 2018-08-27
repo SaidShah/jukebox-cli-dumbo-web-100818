@@ -48,7 +48,7 @@ def play(my_songs)
     system "open #{my_songs[user_input]}"
   end
   else 
-    puts "Invalid "
+    puts "Invalid input"
 end
 
 def exit_jukebox
