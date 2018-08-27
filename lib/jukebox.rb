@@ -63,6 +63,7 @@ def run(song_list)
    puts "Please enter a command:"
    user_input2 = gets.chomp
   loop do
+    
     case user_input2
     
     when "list"
