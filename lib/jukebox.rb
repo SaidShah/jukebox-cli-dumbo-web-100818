@@ -59,11 +59,11 @@ def run
   
   help
   puts "Please enter a command:"
-  user_input = gets.chomp
-  while user_input != "exit"
+  user_input2 = gets.chomp
+  while user_input2 != "exit"
   
   loop do
-    case user_input
+    case user_input2
     
     when "list"
       list
