@@ -51,7 +51,22 @@ end
 end
 
 
-
+def run 
+  
+  help()
+  user_input = gets.chomp
+  while user_input != "exit" do
+  
+  loop do
+    
+    
+    
+  end
+  
+end
+  
+  
+end
 
 
 
