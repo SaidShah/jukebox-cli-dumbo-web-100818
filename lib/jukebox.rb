@@ -58,8 +58,8 @@ end
 def run 
   
   help()
- play(songs)
- user_input = gets.chomp
+  play(songs)
+  user_input = gets.chomp
   while user_input != "exit"
   
   loop do
