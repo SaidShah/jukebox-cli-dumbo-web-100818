@@ -1,7 +1,7 @@
 #Here is the song hash you will be working with. Each key is a song name and each value is the location of it's mp3 file.
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
-require "pry"
+
  my_songs = {
  "Go Go GO" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/01.mp3',
  "LiberTeens" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/02.mp3',
@@ -26,7 +26,7 @@ end
 
 def list(my_songs)
   song_names = my_songs.keys
-  binding.pry
+
   song_names.each_with_index do |names,indexes|
     puts "#{indexes+1}. #{names}"
   end
