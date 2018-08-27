@@ -27,7 +27,7 @@ end
 def list(my_songs)
   song_names = my_songs.keys
   song_names.each_with_index do |names,indexes|
-    puts ""
+    puts "#{indexes+1}. #{names}"
   end
 end
 
@@ -40,6 +40,7 @@ def play(my_songs)
   #if it isn't, tell them their choice is invalid
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
+  
   
 end
 
