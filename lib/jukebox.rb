@@ -66,7 +66,7 @@ def run
       play(songs)
       when "help"
       help
-    
+    end
   end
   
   exit
