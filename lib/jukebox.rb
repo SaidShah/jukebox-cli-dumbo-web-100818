@@ -58,7 +58,7 @@ end
 def run 
   
   help()
-  user_input = gets.chomp
+  user_input = play
   while user_input != "exit" do
   
   loop do
