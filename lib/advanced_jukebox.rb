@@ -26,9 +26,9 @@ end
 
 def list(my_songs)
   song_names = my_songs.keys
-  
-  
-  
+  song_names.each_with_index do |names,indexes|
+    puts ""
+  end
 end
 
 
