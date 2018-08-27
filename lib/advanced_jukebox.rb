@@ -46,10 +46,10 @@ def play(my_songs)
   
   if song_names.include?(user_input)
     system "open #{my_songs[user_input]}"
-    break
+   
   else 
     puts "Invalid input"
-    break
+   
   end
 end
 
