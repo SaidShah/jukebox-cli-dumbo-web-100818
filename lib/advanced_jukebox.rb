@@ -47,7 +47,7 @@ def play(my_songs)
   song_names.each do |songs_avail|
   
   if user_input == songs_avail
-    system "open #{my_songs[user_input]}"
+    system "open #{user_input}"
    
   else 
     puts "Invalid input"
