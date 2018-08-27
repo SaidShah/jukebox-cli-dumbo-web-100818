@@ -2,15 +2,15 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
-# my_songs = {
-# "Go Go GO" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/07.mp3'
-# }
+ my_songs = {
+ "Go Go GO" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/01.mp3',
+ "LiberTeens" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/02.mp3',
+ "Hamburg" =>  '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/03.mp3',
+ "Guiding Light" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/04.mp3',
+ "Wolf" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/05.mp3',
+ "Blue" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/06.mp3',
+ "Graduation Failed" => '/home/SaidShah/jukebox-cli-dumbo-web-100818/jukebox-cli/audio/Emerald-Park/07.mp3'
+ }
 
 def help
   #this method should be the same as in jukebox.rb
