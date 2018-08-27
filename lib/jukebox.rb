@@ -66,9 +66,9 @@ def run
     case user_input
     
     when "list"
-      list
+      list(songs)
     when "play"
-      play
+      play(songs)
       when "help"
       help
     end
