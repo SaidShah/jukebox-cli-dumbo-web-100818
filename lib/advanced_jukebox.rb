@@ -26,6 +26,7 @@ end
 
 def list(my_songs)
   song_names = my_songs.keys
+  binding.pry
   song_names.each_with_index do |names,indexes|
     puts "#{indexes+1}. #{names}"
   end
