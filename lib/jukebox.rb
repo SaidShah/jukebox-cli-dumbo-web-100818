@@ -59,7 +59,7 @@ def run
   
   help
   puts "Please enter a command:"
-  
+    user_input2 = gets.chomp
   while user_input2 != "exit" do
   user_input2 = gets.chomp
   loop do
