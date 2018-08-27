@@ -60,10 +60,11 @@ def run(song_list)
   help
   user_input2 = " "
  
-   puts "Please enter a command:"
-   user_input2 = gets.chomp
+
   loop do
-    
+       puts "Please enter a command:"
+        user_input2 = gets.chomp
+        
     case user_input2
     
     when "list"
@@ -72,6 +73,8 @@ def run(song_list)
       play(song_list)
       when "help"
       help
+      when "exit"
+        break
     end
     exit_jukebox
   end
