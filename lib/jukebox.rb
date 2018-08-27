@@ -74,11 +74,11 @@ def run(song_list)
       when "help"
       help
       when "exit"
-        exit_jukebox
+        
     end
     
   end
-
+exit_jukebox
 end
 
 
