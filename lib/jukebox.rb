@@ -59,7 +59,7 @@ def run
   
   help()
   user_input = play(songs)
-  while user_input != "exit" do
+  while user_input != "exit"
   
   loop do
     case user_input
