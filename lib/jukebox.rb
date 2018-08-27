@@ -58,7 +58,7 @@ def run
   while user_input != "exit" do
   
   loop do
-    
+    case 
     
     
   end
