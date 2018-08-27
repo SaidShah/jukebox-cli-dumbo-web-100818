@@ -59,7 +59,7 @@ def run(song_list)
   
   help
   user_input2 = " "
-  while user_input2 != "exit" do
+ 
    puts "Please enter a command:"
    user_input2 = gets.chomp
   loop do
@@ -74,12 +74,7 @@ def run(song_list)
     end
     exit_jukebox
   end
-  
-  
-  
-end
-  
-  
+
 end
 
 
